@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+<head>
+<link rel="stylesheet" href="style.css">
+</head>
+<body>
+	<img src="/home/qainfotech/Desktop/img1.PNG" alt="title image">
+    </br></br>
+    </br>
+	<center>
+	<div class="form1">
+
+		<form action="/home/qainfotech/Desktop/home.html" id="form" method="post" class="form2" onsubmit="return fun1()">
+		<label>Email</label></br>
+		<input type="email" name="email" id="n1" size="35" required/><br>
+		<label>Password</label></br>
+		<input type="password" name="password"  size="35" required/></input><br>
+		<input type="submit" name="login" value="Login" class="button1"/>
+		
+
+
+		</form>
+		<p>New User? <a href="/home/qainfotech/Desktop/signup.html">SignUp</a><br><br>
+		<a href="https://www.facebook.com/profile.php?id=100010262250364"><img src="fb.png" style="width:30px;height:30px"></a>
+  		<a href="https://www.linkedin.com/in/shivangi-goel-4a69b7148"><img src="link.png" style="width:30px;height:30px">
+  		<a href="https://www.gmail.com"><img src="google.png" style="width:30px;height:30px">
+	</div>
+	</center>
+
+	<script>
+		function fun1(){
+		var fname =document.forms["form"]["email"].value;
+		if(email==""){alert("please fill all fields!");
+		return false;}
+	</script>
+
+</body>
+</html>
